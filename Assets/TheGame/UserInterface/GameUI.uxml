@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(96, 0, 4); position: absolute; width: 100%; height: 5%;" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(96, 0, 4); position: absolute; width: 100%; height: 5%; bottom: 0;" />
+    <ui:Label tabindex="-1" text="Счёт: 0" display-tooltip-when-elided="true" name="PointsCount" style="color: rgb(255, 255, 255); font-size: 32px; -unity-text-align: upper-center; position: relative; -unity-font-style: bold;" />
+    <ui:Label tabindex="-1" text="Нажмите клавишу &quot;Пробел&quot; для начала игры" display-tooltip-when-elided="true" name="StartGameMessage" style="position: relative; top: 40%; -unity-text-align: upper-center; font-size: 32px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+</ui:UXML>
